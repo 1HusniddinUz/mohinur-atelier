@@ -1,0 +1,49 @@
+#AboutUs
+{
+    width: 100%;
+    padding: 100px;
+}
+#AboutUs .container
+{
+    width: 50%;
+    padding: 20px 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+.container button
+{
+    cursor: pointer;
+    width: 120px;
+    border: none;
+    font-weight: 500;
+    margin: 20px 0px;
+    background-color: transparent;
+    font-family: Montserrat;
+    padding: 10px 12px;
+    border-radius: 25px;   
+}
+.container h2
+{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.container p
+{
+    margin: 20px 0px;
+    font-size: 1rem;
+    color: #3C2769;
+    font-weight: 400;
+}
+.container .purple
+{
+    background-color:#EDEBF7 ;
+    color: #3C2769;
+}
+.container .AboutUsButtons
+{
+    width: 100%;
+}
+.container .AboutUsButtons .AboutUsToProductsBtn
+{
+    border: 1px solid #CDD5DF;
+}

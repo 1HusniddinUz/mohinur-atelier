@@ -1,0 +1,80 @@
+#HeroSection
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #EDEBF7;
+    display: flex;
+}
+#HeroSection .HeroTextBlock
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90vh;
+    padding: 100px;
+    gap: 35vh;
+
+}
+.HeroTextBlock .TextBlockTop
+{
+    width: 100%;
+}
+.HeroTextBlock .TextBlockTop h1
+{
+    font-size: 2rem;
+    color: #3C2769;
+    font-weight: 500;
+}
+.HeroTextBlock .TextBlockTop p
+{
+    margin: 20px 0px;
+    font-size: 1.2rem;
+    color: #3C2769;
+    font-weight: 400;
+}
+.HeroTextBlock .TextBlockTop button
+{
+    cursor: pointer;
+    margin-right: 20px;
+    width: 100px;
+    padding: 10px 12px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-family: Montserrat;
+    font-size: 0.8em;
+}
+.HeroTextBlock .TextBlockTop .red
+{
+    background-color: #CF4D74;
+}
+.HeroTextBlock .TextBlockTop .white
+{
+    background-color: white;
+    color: black;
+    border: 1px solid #CDD5DF;
+}
+.HeroTextBlock .TextBlockBottom
+{
+    width: 100%;
+}
+.HeroTextBlock .TextBlockBottom span
+{
+    color: #3C2769;
+}
+.HeroTextBlock .TextBlockBottom strong
+{
+    color: #3C2769;
+}
+/* * HEROTEXT BLOCK END */
+
+.HeroContent
+{
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 95vh;
+    border-bottom-left-radius: 20px;
+    background-image: url("./media/IMAGE.png");
+}
