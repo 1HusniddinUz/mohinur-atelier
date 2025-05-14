@@ -7,8 +7,8 @@ const AboutUs = () => {
             <h2>The beautiful story</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
             <div className="AboutUsButtons">
-                <button className="AboutUsToProductsBtn">Products</button>
-                <button>Contact us {`>`}</button>
+                <a href="#Products"><button className="AboutUsToProductsBtn">Products</button></a>
+                <a href="#ContactForm"><button>Contact us {`>`}</button></a>
             </div>
         </div>
 

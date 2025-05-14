@@ -9,13 +9,13 @@ const Navbar = () => {
         </div>
         <ul>
           <li>
-            <a href="#">Products</a>
+            <a href="#Products">Products</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#AboutUs">About</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#ContactForm">Contact</a>
           </li>
         </ul>
         <div className="call_center">

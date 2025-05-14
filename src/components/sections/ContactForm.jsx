@@ -72,6 +72,10 @@ const ContactForm = () => {
           ></iframe>
         </div>
       </div>
+
+      <div className="footerToTop"><a href="#Header"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+
     </div>
   );
 };

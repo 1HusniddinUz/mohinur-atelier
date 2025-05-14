@@ -10,8 +10,8 @@ const HeroSection = () => {
             varius enim in eros elementum tristique duis Cursus mi quis viverra
             ornare.
           </p>
-          <button className="red">Shop now</button>
-          <button className="white">Our Story</button>
+          <a href="#Products"><button className="red">Shop now</button></a>
+          <a href="#AboutUs"><button className="white">Our Story</button></a>
         </div>
         <div className="TextBlockBottom">
             <span>Trusted by the world's best companies</span>

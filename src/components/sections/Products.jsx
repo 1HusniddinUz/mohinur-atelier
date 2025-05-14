@@ -8,22 +8,26 @@ const products = [
   {
     name: "Ayollar kostyumi",
     price: "$200",
-    image: "https://theremoda.com/cdn/shop/collections/gucci-clothing-shoes-and-accessories-theremoda.jpg"
+    image:
+      "https://theremoda.com/cdn/shop/collections/gucci-clothing-shoes-and-accessories-theremoda.jpg",
   },
   {
     name: "Ayollar sumkasi",
     price: "$150",
-    image: "https://theremoda.com/cdn/shop/collections/gucci-clothing-shoes-and-accessories-theremoda.jpg"
+    image:
+      "https://theremoda.com/cdn/shop/collections/gucci-clothing-shoes-and-accessories-theremoda.jpg",
   },
   {
     name: "Ayollar kostyumi",
     price: "$180",
-    image: "https://theremoda.com/cdn/shop/collections/gucci-clothing-shoes-and-accessories-theremoda.jpg"
+    image:
+      "https://theremoda.com/cdn/shop/collections/gucci-clothing-shoes-and-accessories-theremoda.jpg",
   },
   {
     name: "Ayollar ko'ylagi",
     price: "$130",
-    image: "https://theremoda.com/cdn/shop/collections/gucci-clothing-shoes-and-accessories-theremoda.jpg"
+    image:
+      "https://theremoda.com/cdn/shop/collections/gucci-clothing-shoes-and-accessories-theremoda.jpg",
   },
 ];
 
@@ -38,24 +42,26 @@ const Products = () => {
   };
 
   return (
-    <div className="products-section">
-      <Slider {...settings}>
-        {products.map((product, index) => (
-          <div className="carousel-slide" key={index}>
-            <div className="product-card">
-              <img
-                src={product.image}
-                alt={product.name}
-                className="product-image"
-              />
-              <div className="product-info">
-                <h3 className="product-name">{product.name}</h3>
-                <p className="product-price">{product.price}</p>
+    <div id="Products">
+      <div className="products-section">
+        <Slider {...settings}>
+          {products.map((product, index) => (
+            <div className="carousel-slide" key={index}>
+              <div className="product-card">
+                <img
+                  src={product.image}
+                  alt={product.name}
+                  className="product-image"
+                />
+                <div className="product-info">
+                  <h3 className="product-name">{product.name}</h3>
+                  <p className="product-price">{product.price}</p>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
-      </Slider>
+          ))}
+        </Slider>
+      </div>
     </div>
   );
 };
