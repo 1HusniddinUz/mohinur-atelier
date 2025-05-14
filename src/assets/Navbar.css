@@ -32,6 +32,14 @@ nav .container
 {
     color: #697586;
 }
+.container .call_center
+{
+    width: 15%;
+}
+.container .call_center span
+{
+    color: #271946;
+}
 .container .social_links
 {
     width: 10%;

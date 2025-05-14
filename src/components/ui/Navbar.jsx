@@ -18,16 +18,8 @@ const Navbar = () => {
             <a href="#">Contact</a>
           </li>
         </ul>
-        <div className="social_links">
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-telegram"></i>
-          </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-youtube"></i>
-          </a>
+        <div className="call_center">
+          <a href="#" target="_blank"><span>{`+998 (91) 820-84-46`}</span></a>
         </div>
       </div>
     </nav>
